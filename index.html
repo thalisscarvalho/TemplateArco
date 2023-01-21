@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de Arco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="cabeca">TIPOS DE ARCO</h1>
+    <div id="tudo">
+    <div id="fundoP">
+        <div class="comps" id="composto1">
+            <header>
+                <h1>Arco Composto</h1>
+                <input type="button" value="SOBRE" id="sobre1" onclick="sobre()" >
+                <p id="arco1"></p>
+            </header>
+                <div class="arco">
+                     <img src="imags/arcomp.png" id="compo" onmouseenter="entro()" onmouseout="saiu()">
+                </div>
+        </div>
+    
+        <div class="comps" id="composto2">
+            <header>
+                <h1>Arco Recurvo</h1>
+                <input type="button" value="SOBRE">
+                <p id="arco2"></p>
+            </header>
+                <div class="arco">
+                    <img style="margin-top: 110px; width: 300px; height: 300px;" src="imags/rec.png" id="recu" onmouseenter="entro2()" onmouseout="saiu2()">
+                </div>
+        </div>
+        <div class="comps" id="composto3">
+            <header>
+                <h1>Arco Tradicional</h1>
+                <input type="button" value="SOBRE">
+                <p id="arco3"></p>
+            </header>
+                    <div class="arco">
+                        <img style="margin-top: 110px;" src="imags/trad.png" id="trad" onmouseenter="entro3()" onmouseout="saiu3()">
+                    </div>
+        </div>
+        </div>
+    </div>
+    <div id="icon">
+            <a  href="https://github.com/thalisscarvalho" target="_blank"><img class="link" src="imags/icons8-github-94.png" alt=""></a>
+            <a  href="https://www.instagram.com/thaliss367/" target="_blank"><img class="link" src="imags/icons8-instagram-94.png" alt=""></a>
+            <a  href="https://www.linkedin.com/in/thalis-sousa-b75b75180/" target="_blank"><img class="link" src="imags/icons8-linkedin-94.png" alt=""></a>
+    </div>
+    <footer>&copy;thalimjaka</footer>
+    <script src="arco.js"></script>
+</body>
+</html>

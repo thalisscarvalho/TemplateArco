@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: linear-gradient(rgb(26, 24, 24), rgb(49, 36, 36), rgb(88, 27, 27));
+}
+#fundoP{
+    border-top: 2px black solid;
+}
+#cabeca{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Righteous', cursive;
+}
+header{
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 50px;
+    position: absolute;
+}
+h1{
+    font: normal 30pt arial;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+input{
+    border: none;
+    margin-top: 30px;
+    background-color: rgb(140, 206, 96);
+    font: normal 14pt arial;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 0px 15px rgb(98, 156, 58);
+}
+
+h2{
+    display: block;
+    text-align: left;
+    padding: 5px;
+    margin-top: 20px;
+}
+p{
+    text-align: left;
+    width: 150px;
+    position: absolute;
+    font: normal 15pt arial;
+    left: -1000px;
+
+}
+p:hover {
+    transition-duration: 2s;
+}
+.comps{
+    background-color: gray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 15px;
+    width: 900px;
+    height: 400px;
+    margin-top: 100px;
+    box-shadow: 0px 10px 80px 5px  black;
+    margin: auto;
+    margin-bottom: 50px;
+    display: block;
+    margin-top: 100px;
+    position: relative;
+    border-radius: 20px;
+    
+
+}
+img{
+    width: 300px;
+    display: block;
+    margin-left: 450pt;
+    position: relative;
+}
+
+
+footer{
+    position: static;
+    text-align: center;
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 10px;
+    font: normal 14pt arial;
+    width: auto;
+}
+#composto1{
+    background-image: url(imags/fc.jpg);
+    background-position: bottom;
+}
+#composto2 {
+    background-image: url(imags/fr.jpg);
+    background-position: top;
+}
+#composto3 {
+    background-image: url(imags/ft.jpg);
+    background-position: top;
+}
+#icon{
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.link{
+    width: 25px;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+}
