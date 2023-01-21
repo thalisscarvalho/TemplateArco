@@ -6,9 +6,6 @@
 body{
     background: linear-gradient(rgb(26, 24, 24), rgb(49, 36, 36), rgb(88, 27, 27));
 }
-#fundoP{
-    border-top: 2px black solid;
-}
 #cabeca{
     text-align: center;
     margin-top: 50px;
@@ -24,6 +21,10 @@ h1{
     font: normal 30pt arial;
     color: white;
     font-family: 'Righteous', cursive;
+}
+#iconT{
+    text-align: center;
+    margin: auto;
 }
 input{
     border: none;
