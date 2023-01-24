@@ -112,3 +112,20 @@ footer{
     position: relative;
     margin: 5px;
 }
+@media screen and (max-width:730px) {
+    footer{
+        position: relative;
+        text-align: center;
+        background-color: rgb(37, 33, 33);
+        color: white;
+        padding: 10px;
+        font: normal 14pt arial;
+        width: 60rem;
+        }
+    .link{
+        width: 25px;
+        display: inline-flexbox;
+        position: relative;
+        left: 15rem;
+    }
+}
